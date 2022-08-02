@@ -98,3 +98,47 @@ ul.flex.b.grey-3 li:last-child a {
     font-size: 18px;
     margin-top: 20px;
 }
+
+.stop-babysitting-dev {
+    max-width: 1203px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.stop-babysitting-dev .content-top,
+.stop-babysitting-dev .content-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.stop-babysitting-dev .content-bottom {
+    margin-top: 44px;
+}
+
+.stop-babysitting-dev .content-top .text {
+    width: 654px;
+    margin-right: 43px;
+}
+
+.stop-babysitting-dev .content-bottom .text {
+    width: 601px;
+    margin-left: 60px;
+}
+
+.stop-babysitting-dev .top {
+    margin-bottom: 9px;
+}
+
+.stop-babysitting-dev .top span {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+    color: #535353;
+    margin-left: 8px;
+}
+
+.stop-babysitting-dev .bottom {
+    font-size: 20px;
+    line-height: 25px;
+    color: #535353;
+}
