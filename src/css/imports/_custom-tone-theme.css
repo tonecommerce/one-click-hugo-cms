@@ -21,4 +21,37 @@ div.pv5.pv6-l.ph3.bg-center.cover > nav {
     top: 0;
     background: none;
     box-shadow: none;
+    width: 90%;
+    margin-top: 10px;
+}
+
+a.pa3.db.mr4.h-100.flex-none {
+    width: 140px;
+    padding: 0;
+    margin: 0 0 0 89px;
+}
+
+ul.flex.b.grey-3 {
+    float: right;
+    margin-right: 89px;
+}
+
+ul.flex.b.grey-3 a {
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    font-weight: 700;
+}
+
+ul.flex.b.grey-3 li:last-child {
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border-radius: 25px;
+    width: 182px;
+    height: 43px;
+    margin-top: 10px;
+}
+
+ul.flex.b.grey-3 li:last-child a {
+    color: #F15E56;
+    padding: 10px 23px;
 }
