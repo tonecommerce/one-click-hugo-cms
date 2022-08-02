@@ -61,7 +61,7 @@ ul.flex.b.grey-3 li:last-child a {
     position: absolute;
     top: 50%;
     left: 89px;
-    transform: translate(0,-50%);
+    transform: translate(0, -50%);
     padding: 0;
     max-width: 640px;
 }
@@ -84,7 +84,7 @@ ul.flex.b.grey-3 li:last-child a {
     margin-bottom: 20px;
 }
 
-.banner-header .let-talk {
+.let-talk {
     display: block;
     background: #FFFFFF 0 0 no-repeat padding-box;
     border-radius: 25px;
@@ -112,7 +112,7 @@ ul.flex.b.grey-3 li:last-child a {
 }
 
 .stop-babysitting-dev .content-bottom {
-    margin-top: 44px;
+    margin: 44px 0 76px;
 }
 
 .stop-babysitting-dev .content-top .text {
@@ -141,4 +141,75 @@ ul.flex.b.grey-3 li:last-child a {
     font-size: 20px;
     line-height: 25px;
     color: #535353;
+}
+
+.life-easier {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.life-easier .content {
+    position: absolute;
+    top: 50%;
+    left: 89px;
+    transform: translate(0, -50%);
+}
+
+.life-easier img {
+    width: 100%;
+}
+
+.life-easier .content .title {
+    font-size: 32px;
+    line-height: 35px;
+    color: white;
+    font-weight: 700;
+}
+
+.best-developer {
+    position: absolute;
+    bottom: -117px;
+    left: 32%;
+    width: 100%;
+    overflow-x: scroll;
+    padding-bottom: 15px;
+    white-space: nowrap;
+}
+
+.best-developer .block {
+    width: 616px;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    box-shadow: 0 3px 6px #00000029;
+    border-radius: 15px;
+    padding: 37px 49px 28px 53px;
+    display: inline-block;
+    min-height: 292px;
+    vertical-align: top;
+    margin-left: 70px;
+}
+
+.best-developer .block:first-child {
+    margin-left: 0;
+}
+
+.best-developer .block .top span {
+    font-size: 36px;
+    line-height: 58px;
+    color: #535353;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.best-developer .block .top img {
+    vertical-align: sub;
+    width: auto;
+}
+
+.best-developer .block .description {
+    font-size: 20px;
+    line-height: 25px;
+    color: #535353;
+    font-weight: 400;
+    margin-top: 19px;
+    white-space: normal;
 }
