@@ -1,3 +1,4 @@
+html,
 body {
     overflow-x: hidden;
 }
@@ -54,4 +55,46 @@ ul.flex.b.grey-3 li:last-child {
 ul.flex.b.grey-3 li:last-child a {
     color: #F15E56;
     padding: 10px 23px;
+}
+
+.banner-header .mw7.center.ph3 {
+    position: absolute;
+    top: 50%;
+    left: 89px;
+    transform: translate(0,-50%);
+    padding: 0;
+    max-width: 640px;
+}
+
+.banner-header h1.title {
+    font-size: 52px;
+    line-height: 58px;
+    font-weight: 700;
+}
+
+.banner-header .mw7.relative.bg-fix-primary.mb3 {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.banner-header .description {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-header .let-talk {
+    display: block;
+    background: #FFFFFF 0 0 no-repeat padding-box;
+    border-radius: 25px;
+    width: 187px;
+    height: 43px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 43px;
+    color: #F15E56;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
 }
