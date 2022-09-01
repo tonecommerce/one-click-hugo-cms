@@ -176,6 +176,15 @@ ul.flex.b.grey-3 li:last-child a {
     white-space: nowrap;
 }
 
+.best-developer::-webkit-scrollbar {
+    display: none;
+}
+
+.best-developer {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 .best-developer .block {
     width: 616px;
     background: #FFFFFF 0 0 no-repeat padding-box;
@@ -212,4 +221,82 @@ ul.flex.b.grey-3 li:last-child a {
     font-weight: 400;
     margin-top: 19px;
     white-space: normal;
+}
+
+.work-with-us {
+    text-align: center;
+}
+
+.work-with-us .border {
+    background: transparent linear-gradient(90deg, #EDB573 0%, #E0675C 100%) 0 0 no-repeat padding-box;
+    border-radius: 20px;
+    width: 192px;
+    height: 20px;
+    margin: auto;
+}
+
+.work-with-us .title {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bold;
+    color: #535353;
+    text-align: center;
+    margin: 23px auto 52px;
+}
+
+.stop-babysitting-dev .top span.step {
+    font-size: 36px;
+    line-height: 36px;
+    color: #F15E56;
+    font-weight: bold;
+    margin: 0;
+}
+
+.stop-babysitting-dev .bottom.context {
+    max-width: 555px;
+}
+
+.our-promise {
+    background: #F7F7F7 0 0 no-repeat padding-box;
+    padding-bottom: 109px;
+}
+
+.our-promise .title {
+    font-size: 48px;
+    line-height: 58px;
+    color: #535353;
+    text-align: center;
+    padding: 60px 0 54px;
+    margin-top: 90px;
+}
+
+.our-promise .main-content {
+    max-width: 1203px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.our-promise .main-content .content {
+    max-width: 293px;
+    margin-left: 114px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.our-promise .main-content .content:first-child {
+    margin-left: 0;
+}
+
+.our-promise .main-content .content .number {
+    font-size: 50px;
+    line-height: 36px;
+    color: #F15E56;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.our-promise .main-content .content .description {
+    font-size: 20px;
+    line-height: 25px;
+    color: #535353;
 }
