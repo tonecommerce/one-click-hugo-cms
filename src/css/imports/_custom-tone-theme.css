@@ -494,3 +494,153 @@ ul.flex.b.grey-3 li:last-child a {
     text-align: center;
     padding: 47px 0 43px;
 }
+
+@media only screen and (max-width: 1199px) {
+    a.pa3.db.mr4.h-100.flex-none {
+        margin: 0 0 0 40px;
+    }
+
+    ul.flex.b.grey-3 {
+        margin-right: 40px;
+    }
+
+    .banner-header h1.title {
+        font-size: 42px;
+        line-height: 58px;
+    }
+
+    .banner-header .mw7.center.ph3 {
+        left: 50px;
+        max-width: 515px;
+    }
+
+    .banner-header .description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mw7.relative {
+        line-height: 20px;
+    }
+
+    .let-talk {
+        font-size: 16px;
+    }
+
+    .stop-babysitting-dev {
+        padding: 0 50px;
+    }
+
+    .stop-babysitting-dev .top span {
+        margin-left: 0;
+        font-size: 36px;
+        line-height: 58px;
+        vertical-align: bottom;
+    }
+
+    .stop-babysitting-dev .content-top .text {
+        max-width: 498px;
+    }
+
+    .stop-babysitting-dev .bottom {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .life-easier .content {
+        left: 50px;
+        top: 35%;
+    }
+
+    .best-developer .block {
+        max-width: 534px;
+        min-height: 268px;
+    }
+
+    .best-developer .block {
+        padding: 53px 40px 37px 54px;
+    }
+
+    .best-developer {
+        left: 43%;
+    }
+
+    .best-developer .block .top span {
+        font-size: 28px;
+        line-height: 58px;
+        margin-left: 5px;
+        vertical-align: revert;
+    }
+
+    .best-developer .block .description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .work-with-us .border {
+        width: 150px;
+        height: 16px;
+    }
+
+    .work-with-us .title {
+        font-size: 36px;
+        line-height: 58px;
+    }
+
+    .stop-babysitting-dev .content-top,
+    .stop-babysitting-dev .content-bottom {
+        display: grid;
+        text-align: center;
+    }
+
+    .stop-babysitting-dev .content-top img,
+    .stop-babysitting-dev .content-bottom img {
+        max-width: 350px;
+    }
+
+    .stop-babysitting-dev .content-top .text,
+    .stop-babysitting-dev .content-bottom .text {
+        order: 2;
+        margin: auto;
+    }
+
+    .stop-babysitting-dev .top {
+        margin-bottom: 23px;
+    }
+
+    .stop-babysitting-dev .top span.step {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .our-promise {
+        padding-bottom: 69px;
+    }
+
+    .our-promise .title {
+        font-size: 36px;
+        line-height: 58px;
+        padding: 53px 0 41px;
+    }
+
+    .our-promise .main-content {
+        padding: 0 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .our-promise .main-content .content {
+        max-width: 220px;
+    }
+
+    .our-promise .main-content .content .number {
+        font-size: 42px;
+        line-height: 36px;
+        margin-bottom: 23px;
+    }
+
+    .our-promise .main-content .content .description {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
