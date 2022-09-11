@@ -42,6 +42,12 @@ ul.flex.b.grey-3 a {
     line-height: 23px;
     color: white;
     font-weight: 700;
+    box-shadow: none;
+}
+
+ul.flex.b.grey-3 a:hover {
+    color: #FFA0A0;
+    text-decoration: underline;
 }
 
 ul.flex.b.grey-3 li:last-child {
@@ -50,6 +56,13 @@ ul.flex.b.grey-3 li:last-child {
     width: 182px;
     height: 43px;
     margin-top: 10px;
+}
+
+ul.flex.b.grey-3 li:last-child a:hover {
+    text-decoration: none;
+    background: #F7B367 0 0 no-repeat padding-box;
+    color: #FFFFFF;
+    border-radius: 25px;
 }
 
 ul.flex.b.grey-3 li:last-child a {
@@ -69,7 +82,7 @@ ul.flex.b.grey-3 li:last-child a {
 .banner-header h1.title {
     font-size: 52px;
     line-height: 58px;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .banner-header .mw7.relative.bg-fix-primary.mb3 {
@@ -97,6 +110,11 @@ ul.flex.b.grey-3 li:last-child a {
     font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
+}
+
+.let-talk:hover {
+    background: #F15E56;
+    color: #FFFFFF;
 }
 
 .stop-babysitting-dev {
@@ -460,6 +478,12 @@ ul.flex.b.grey-3 li:last-child a {
     line-height: 23px;
     color: #F15E56;
     font-weight: bold;
+}
+
+.get-in form button:hover {
+    background: #F15E56 0 0 no-repeat padding-box;
+    color: #FFFFFF;
+    border-radius: 25px;
 }
 
 .footer {
