@@ -643,4 +643,65 @@ ul.flex.b.grey-3 li:last-child a {
         font-size: 16px;
         line-height: 20px;
     }
+
+    .blog-home .title {
+        font-size: 36px;
+        line-height: 58px;
+        padding: 54px 0 41px;
+    }
+
+    .blog-home {
+        padding: 0 15px 69px;
+    }
+
+    .slideshow-container {
+        padding: 55px 41px 28px;
+        max-width: 750px;
+    }
+
+    .slideshow-container .content {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 36px;
+    }
+
+    .slideshow-container .content-bottom .author {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .get-in .title {
+        font-size: 36px;
+        line-height: 58px;
+        padding: 78px 0 26px;
+    }
+
+    .get-in form .label {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .get-in form {
+        max-width: 550px;
+    }
+
+    .get-in form input {
+        padding: 6px 16px;
+    }
+
+    .get-in form textarea {
+        height: 120px;
+    }
+
+    .get-in form button {
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer {
+        font-size: 16px;
+        line-height: 20px;
+    }
 }
