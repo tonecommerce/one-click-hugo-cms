@@ -705,3 +705,96 @@ ul.flex.b.grey-3 li:last-child a {
         line-height: 20px;
     }
 }
+
+@media only screen and (max-width: 900px) {
+    a.pa3.db.mr4.h-100.flex-none {
+        width: 80px;
+    }
+
+    .banner-header .mw7.center.ph3 {
+        left: 45%;
+        max-width: max-content;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 85%;
+    }
+
+    .banner-header h1.title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    div.pv5.pv6-l.ph3.bg-center.cover img {
+        min-height: 458px;
+    }
+
+    div.pv5.pv6-l.ph3.bg-center.cover img.br0 {
+        min-height: unset;
+    }
+
+    .let-talk {
+        margin: 22px auto 0;
+        max-width: 150px;
+    }
+
+    .stop-babysitting-dev {
+        padding: 0;
+    }
+
+    .stop-babysitting-dev .content-top .text {
+        width: auto;
+    }
+
+    .stop-babysitting-dev .content-top img,
+    .stop-babysitting-dev .content-bottom img {
+        max-width: 250px;
+    }
+
+    .stop-babysitting-dev .content-bottom .text {
+        width: auto;
+    }
+
+    .stop-babysitting-dev .top span {
+        font-size: 20px;
+        line-height: 58px;
+    }
+
+    .stop-babysitting-dev .content-top .top img,
+    .stop-babysitting-dev .content-bottom .top img {
+        width: 25px;
+        vertical-align: super;
+    }
+
+    .stop-babysitting-dev .top {
+        margin-bottom: 10px;
+        line-height: 32px;
+        height: 45px;
+    }
+
+    .stop-babysitting-dev .content-top {
+        padding: 0 10px;
+    }
+
+    .stop-babysitting-dev .content-bottom {
+        background: #f7f7f7;
+        padding: 45px 10px;
+        margin-bottom: 0;
+    }
+
+    .life-easier > img {
+        min-height: 428px;
+    }
+
+    .life-easier .content .title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .life-easier .content {
+        left: 50%;
+        top: 28%;
+        transform: translate(-50%, -50%);
+        width: 289px;
+        text-align: center;
+    }
+}
