@@ -7,7 +7,8 @@
     </a>
 
     <!-- Primary Nav -->
-    <ul class="flex b grey-3">
+    <img src="/img/icon-nav.png" alt="icon nav" class="icon-nav" onclick="myFunction()"/>
+    <ul class="flex b grey-3" id="myDIV">
       <li><a href="/products" class="pa3 no-underline db">Why Choose Us</a></li>
 
       <li><a href="/values" class="pa3 no-underline db">Our Services</a></li>
@@ -16,7 +17,6 @@
 
       <li><a href="/contact" class="pa3 no-underline db">Schedule A Call</a></li>
     </ul>
-
   </nav>
 
   <img src="/img/imgpsh_fullsize_anim.png" alt="banner"/>
@@ -38,3 +38,10 @@
     </div>
   </div>
 </div>
+
+<script>
+  function myFunction() {
+    var element = document.getElementById("myDIV");
+    element.classList.toggle("nav-toggle-mob");
+  }
+</script>
