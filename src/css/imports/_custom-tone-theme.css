@@ -189,19 +189,10 @@ ul.flex.b.grey-3 li:last-child a {
     bottom: -117px;
     left: 32%;
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: auto;
     padding-bottom: 15px;
     white-space: nowrap;
     max-width: 68%;
-}
-
-.best-developer::-webkit-scrollbar {
-    display: none;
-}
-
-.best-developer {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
 }
 
 .best-developer .block {
