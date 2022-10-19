@@ -187,12 +187,12 @@ ul.flex.b.grey-3 li:last-child a {
 .best-developer {
     position: absolute;
     bottom: -117px;
-    left: 32%;
+    left: 29%;
     width: 100%;
     overflow-x: auto;
     padding-bottom: 15px;
     white-space: nowrap;
-    max-width: 68%;
+    max-width: 72%;
 }
 
 .best-developer .block {
