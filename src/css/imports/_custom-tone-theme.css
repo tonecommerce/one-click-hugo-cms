@@ -192,6 +192,7 @@ ul.flex.b.grey-3 li:last-child a {
     overflow-x: scroll;
     padding-bottom: 15px;
     white-space: nowrap;
+    max-width: 68%;
 }
 
 .best-developer::-webkit-scrollbar {
@@ -563,6 +564,7 @@ ul.flex.b.grey-3 li:last-child a {
 
     .best-developer {
         left: 43%;
+        max-width: 57%;
     }
 
     .best-developer .block .top span {
@@ -796,5 +798,115 @@ ul.flex.b.grey-3 li:last-child a {
         transform: translate(-50%, -50%);
         width: 289px;
         text-align: center;
+    }
+
+    .best-developer .block {
+        padding: 35px 20px;
+        max-width: 95%;
+        margin-left: 25px;
+    }
+
+    .best-developer {
+        left: 20px;
+        max-width: 100%;
+        bottom: -90px;
+        width: calc(100% - 20px);
+    }
+
+    .best-developer .block .top img {
+        width: 25px;
+    }
+
+    .best-developer .block .top span {
+        font-size: 21px;
+    }
+
+    .best-developer .block .description {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .life-easier {
+        margin-bottom: 130px;
+    }
+
+    .work-with-us .title {
+        font-size: 28px;
+        line-height: 58px;
+        margin: 30px 0 44px;
+    }
+
+    .stop-babysitting-dev .content-top img,
+    .stop-babysitting-dev .content-bottom img {
+        max-width: 100%;
+    }
+
+    .stop-babysitting-dev .content-bottom {
+        background: white;
+    }
+
+    .our-promise .title {
+        font-size: 28px;
+        line-height: 58px;
+        padding: 49px 0 0;
+    }
+
+    .our-promise .main-content {
+        display: block;
+        text-align: center;
+    }
+
+    .our-promise .main-content .content {
+        margin: 47px 0 0;
+        max-width: 270px;
+    }
+
+    .our-promise .main-content .content .number {
+        background: #F15E56;
+        width: 67px;
+        height: 67px;
+        border-radius: 50%;
+        text-align: center;
+        color: white;
+        line-height: 67px;
+        margin: 0 auto 24px;
+    }
+
+    .blog-home .title {
+        font-size: 28px;
+        line-height: 58px;
+        padding: 63px 0 23px;
+    }
+
+    .slideshow-container {
+        padding: 40px 35px;
+    }
+
+    .slideshow-container .content-bottom {
+        text-align: center;
+    }
+
+    .slideshow-container .content-bottom .author {
+        display: block;
+    }
+
+    .slideshow-container .content-bottom .last-content {
+        position: relative;
+        width: 35px;
+        margin: 8px auto 0;
+    }
+
+    .get-in {
+        padding: 0 35px;
+    }
+
+    .get-in .title {
+        font-size: 28px;
+        line-height: 58px;
+        padding: 54px 0 23px;
+    }
+
+    .get-in form input {
+        height: 40px;
     }
 }
