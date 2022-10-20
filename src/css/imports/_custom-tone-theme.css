@@ -70,6 +70,10 @@ ul.flex.b.grey-3 li:last-child a {
     padding: 10px 23px;
 }
 
+.banner-mob {
+    display: none;
+}
+
 .banner-header .mw7.center.ph3 {
     position: absolute;
     top: 50%;
@@ -496,7 +500,17 @@ ul.flex.b.grey-3 li:last-child a {
     display: none;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (min-width: 1501px) and (max-width: 1800px) {
+    .best-developer .block {
+        min-height: 370px;
+    }
+
+    .best-developer {
+        bottom: -32%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
     .best-developer {
         max-width: 700px;
     }
@@ -1007,6 +1021,14 @@ ul.flex.b.grey-3 li:last-child a {
 @media only screen and (max-width: 767px) {
     .slick-dots {
         top: -129px;
+    }
+
+    .banner-mob {
+        display: block;
+    }
+
+    .banner-desk {
+        display: none;
     }
 }
 
