@@ -37,7 +37,7 @@
         <a class="let-talk" href="/why-choose-us">Let’s Talk!</a>
     </div>
 
-    <div class="best-developer">
+    <div class="slider best-developer">
         <div class="block">
             <div class="top">
                 <img src="/img/icon-tone.png" alt="img"/>
@@ -81,3 +81,37 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function(){
+        $('.slider').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots: false,
+            arrows: false,
+            infinite: true,
+            cssEase: 'linear',
+            responsive: [
+                {
+                    breakpoint: 1500,
+                    settings: {
+                        slidesToShow: 1,
+                        dots: false,
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                        dots: true,
+                    }
+                },
+            ]
+        });
+    });
+</script>
