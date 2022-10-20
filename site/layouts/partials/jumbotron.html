@@ -8,6 +8,7 @@
 
     <!-- Primary Nav -->
     <img src="/img/icon-nav.png" alt="icon nav" class="icon-nav" onclick="myFunction()"/>
+    <p id="navId" class="icon-close-nav" onclick="myFunction()">X</p>
     <ul class="flex b grey-3" id="myDIV">
       <li><a href="/products" class="pa3 no-underline db">Why Choose Us</a></li>
 
@@ -42,6 +43,8 @@
 <script>
   function myFunction() {
     var element = document.getElementById("myDIV");
+    var elementNav = document.getElementById("navId");
     element.classList.toggle("nav-toggle-mob");
+    elementNav.classList.toggle("active");
   }
 </script>

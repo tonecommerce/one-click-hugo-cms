@@ -491,6 +491,10 @@ ul.flex.b.grey-3 li:last-child a {
     display: none;
 }
 
+.icon-close-nav {
+    display: none;
+}
+
 @media only screen and (max-width: 1199px) {
     a.pa3.db.mr4.h-100.flex-none {
         margin: 0 0 0 40px;
@@ -923,12 +927,12 @@ ul.flex.b.grey-3 li:last-child a {
         position: fixed;
         background: white;
         z-index: 1;
-        top: 52px;
-        right: 8px;
+        top: 0;
+        right: 10px;
         margin: 0;
-        width: 95%;
-        border-radius: 15px;
-        padding: 18px 0;
+        width: 200px;
+        border-radius: 0 0 15px 15px;
+        padding: 55px 0 18px;
     }
 
     ul.flex.b.grey-3.nav-toggle-mob a {
@@ -951,5 +955,17 @@ ul.flex.b.grey-3 li:last-child a {
 
     ul.flex.b.grey-3 li:last-child a {
         padding: 18px;
+    }
+
+    .icon-close-nav.active {
+        position: absolute;
+        right: 32px;
+        color: #F15E56;
+        font-size: 20px;
+        z-index: 2;
+        background: none;
+        font-weight: 700;
+        top: 10px;
+        display: block;
     }
 }
