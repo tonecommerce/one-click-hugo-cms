@@ -500,6 +500,10 @@ ul.flex.b.grey-3 li:last-child a {
     display: none;
 }
 
+div.flex.b.grey-3 > img {
+    display: none;
+}
+
 @media only screen and (min-width: 1501px) and (max-width: 1800px) {
     .best-developer .block {
         min-height: 370px;
@@ -960,6 +964,7 @@ ul.flex.b.grey-3 li:last-child a {
         width: 100%;
         height: 100%;
         z-index: 1;
+        display: block;
     }
 
     ul.flex.b.grey-3 a {
