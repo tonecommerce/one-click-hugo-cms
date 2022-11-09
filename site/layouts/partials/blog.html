@@ -220,21 +220,48 @@
 	<form>
 		<div class="context">
 			<p class="label">Name</p>
-			<input name="name" type="text" />
+			<input id="contact-name" name="name" type="text" />
 		</div>
 		<div class="context">
 			<p class="label">Phone Number</p>
-			<input name="phonenumber" type="text" />
+			<input id="contact-phonenumber" name="phonenumber" type="text" />
 		</div>
 		<div class="context">
 			<p class="label">Email Address</p>
-			<input name="email" type="email" />
+			<input id="contact-email" name="email" type="email" />
 		</div>
 		<div class="context">
 			<p class="label">Message</p>
-			<textarea name="message"></textarea>
+			<textarea id="contact-message" name="message"></textarea>
 		</div>
 
-		<button type="submit">Send Message</button>
+		<button id="send-message" type="submit">Send Message</button>
 	</form>
 </div>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>
+	document.getElementById("send-message").addEventListener("click", sendMail);
+
+	function sendMail() {
+		var name = document.getElementById("contact-name").value;
+		var phonenumber = document.getElementById("contact-phonenumber").value;
+		var email = "support@tonecommerce.com";
+		var message = document.getElementById("contact-message").value;
+		if (name && phonenumber && email && message) {
+			Email.send({
+				Host : "smtp.elasticemail.com",
+				Username : "haihcoredev@gmail.com",
+				Password : "1FAC8B13E42FE6D0B19A58ABCD99BC33DD74",
+				To : email,
+				From : "haihcoredev@gmail.com",
+				Subject : "Name : "+ name + " .Phone: "+ phonenumber,
+				Body : message
+			}).then(
+					message => alert(message)
+			);
+		} else {
+			alert("please fill all information before send message");
+		}
+	}
+</script>
