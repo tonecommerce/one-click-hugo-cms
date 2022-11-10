@@ -247,15 +247,15 @@
 		var name = document.getElementById("contact-name").value;
 		var phonenumber = document.getElementById("contact-phonenumber").value;
 		var email = "support@tonecommerce.com";
-		var message = document.getElementById("contact-message").value;
 		var emailContact = document.getElementById("contact-email").value;
+		var message = document.getElementById("contact-message").value;
 		if (name && phonenumber && email && message) {
 			Email.send({
 				Host : "smtp.elasticemail.com",
-				Username : "haihcoredev@gmail.com",
-				Password : "1FAC8B13E42FE6D0B19A58ABCD99BC33DD74",
+				Username : "support@tonecommerce.com",
+				Password : "FF717C4B9917A4257EC6FFF24B0D530CEC47",
 				To : email,
-				From : "haihcoredev@gmail.com",
+				From : "support@tonecommerce.com",
 				Subject : "Name : "+ name + " .Phone: "+ phonenumber + " .Email Contact: "+ emailContact,
 				Body : message
 			}).then(
