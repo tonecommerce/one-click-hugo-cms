@@ -249,6 +249,8 @@
 		var email = "support@tonecommerce.com";
 		var emailContact = document.getElementById("contact-email").value;
 		var message = document.getElementById("contact-message").value;
+		var bottomContent = "<br><br><h3>Information of Sender:</h3> <br><span>"+"Name : "+ name + " .Phone: "+ phonenumber + " .Email Contact: "+ emailContact + "</span>";
+
 		if (name && phonenumber && email && message) {
 			Email.send({
 				Host : "smtp.elasticemail.com",
@@ -257,7 +259,7 @@
 				To : email,
 				From : "support@tonecommerce.com",
 				Subject : "Name : "+ name + " .Phone: "+ phonenumber + " .Email Contact: "+ emailContact,
-				Body : message
+				Body : message + bottomContent
 			}).then(
 					message => alert(message)
 			);
