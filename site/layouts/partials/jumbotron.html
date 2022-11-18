@@ -1,13 +1,15 @@
 <div class="pv5 pv6-l ph3 bg-center cover banner-header">
-  <nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
+  <nav id="navbar" class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-white divider-grey relative">
 
     <!-- Logo -->
     <a href="/" class="pa3 db mr4 h-100 w3 flex-none">
-      <img src="/img/logo-tone.png" alt="Tone logo" class="br0 db mb0 w-100"/>
+      <img src="/img/logo-tone.png" alt="Tone logo" class="logo-normal br0 db mb0 w-100"/>
+      <img src="/img/logo-tone-white.png" alt="Tone logo" class="logo-white br0 db mb0 w-100"/>
     </a>
 
     <!-- Primary Nav -->
     <img src="/img/icon-nav.png" alt="icon nav" class="icon-nav" onclick="myFunction()"/>
+    <img src="/img/icon-nav-white.png" alt="icon nav" class="icon-nav icon-nav-white" onclick="myFunction()"/>
     <p id="navId" class="icon-close-nav" onclick="myFunction()">X</p>
     <div class="flex b grey-3" id="myDIV">
       <img src="/img/background_nav_mob.png" alt="img"/>
@@ -51,4 +53,14 @@
     element.classList.toggle("nav-toggle-mob");
     elementNav.classList.toggle("active");
   }
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 300) {
+        $(".banner-header nav").addClass("redHeader");
+    } else {
+      $(".banner-header nav").removeClass("redHeader");
+    }
+  });
 </script>

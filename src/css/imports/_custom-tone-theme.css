@@ -29,6 +29,35 @@ div.pv5.pv6-l.ph3.bg-center.cover > nav {
     z-index: 999;
 }
 
+div.pv5.pv6-l.ph3.bg-center.cover > nav .logo-white {
+    display: none;
+}
+
+div.pv5.pv6-l.ph3.bg-center.cover > nav.redHeader {
+    background: #F56C57;
+}
+
+div.pv5.pv6-l.ph3.bg-center.cover > nav.redHeader .logo-normal {
+    display: none;
+}
+
+div.pv5.pv6-l.ph3.bg-center.cover > nav.redHeader .logo-white {
+    display: block;
+}
+
+.redHeader ul.flex.b.grey-3 a {
+    color: white;
+}
+
+.redHeader ul.flex.b.grey-3 a:hover {
+    color: #F7F7F7;
+}
+
+.redHeader ul.flex.b.grey-3 li:last-child a {
+    background: white;
+    color: #F56C57;
+}
+
 a.pa3.db.mr4.h-100.flex-none {
     width: 140px;
     padding: 0;
@@ -754,6 +783,23 @@ div.flex.b.grey-3 > img {
     .banner-header h1.title {
         font-size: 30px;
         line-height: 40px;
+    }
+
+    .redHeader ul.flex.b.grey-3 li:last-child a {
+        background: none;
+        color: white;
+    }
+
+    div.pv5.pv6-l.ph3.bg-center.cover .icon-nav-white {
+        display: none;
+    }
+
+    div.pv5.pv6-l.ph3.bg-center.cover .redHeader .icon-nav-white {
+        display: block !important;
+    }
+
+    div.pv5.pv6-l.ph3.bg-center.cover .redHeader .icon-nav {
+        display: none;
     }
 
     div.pv5.pv6-l.ph3.bg-center.cover img {
