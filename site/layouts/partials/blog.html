@@ -261,10 +261,18 @@
 				Subject : "Name : "+ name + " .Phone: "+ phonenumber + " .Email Contact: "+ emailContact,
 				Body : message + bottomContent
 			}).then(
-					message => alert(message)
+					message => {
+						if (message === 'OK') {
+							alert('Submit success');
+						} else {
+							alert(message);
+						}
+					}
+
 			);
 		} else {
 			alert("please fill all information before send message");
 		}
+		return false;
 	}
 </script>
