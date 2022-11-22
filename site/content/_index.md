@@ -1,5 +1,5 @@
 ---
-title: "The last Magento Agency you’ll ever call."
+title: "The last Magento agency you’ll ever call."
 subtitle: Finding a great Magento developer is nearly impossible. A poor developer will cost you money, energy, and sleep. There is a better way, where only the best developers deliver quality results and communicate them consistently. Let us show you!
 image: /img/imgpsh_fullsize_anim.png
 blurb:
